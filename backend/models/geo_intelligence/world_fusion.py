@@ -260,7 +260,7 @@ def scan_nearby(longitude, latitude):
         if arrays:
             grav = [float(gravity_grid()([[p['latitude'], p['longitude']]])[0]) for p in positions]
             with torch.inference_mode():
-                logits = model(torch.from_numpy(np.stack(arrays)), torch.tensor(grav, dtype=torch.float32).reshape(-1, 1)).numpy()
+                logits = np.array([model(torch.from_numpy(arr[None]), torch.tensor([[g]], dtype=torch.float32)).numpy()[0] for arr, g in zip(arrays, grav)])
                 scores = 1/(1+np.exp(-np.clip(logits/float(metadata.get('temperature',1.0)),-30,30)))
         else:
             scores = []

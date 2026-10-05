@@ -100,3 +100,4 @@ def fetch_patch(lon,lat,*,size=64,min_valid=.8,resolution_m=20):
             if '10013' in str(e):raise
     detail=next((e for e in reversed(errors) if not e.startswith('ValueError: Only')), '')
     raise RuntimeError(f'Checked {checked} satellite dates from the last year; no usable patch (at least {min_valid:.0%} clear pixels required; best mask {best:.0%}). '+detail)
+
