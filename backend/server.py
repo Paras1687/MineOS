@@ -18,8 +18,8 @@ from backend.exploration import patches,predict_point,ranking,grade_for,score_ov
 from backend.models.geo_intelligence.world_fusion import inspect_point as inspect_world_point, scan_nearby as scan_world_nearby
 from backend.weather import forecast as weather_forecast
 
-torch.set_num_threads(4)
-pool=ThreadPoolExecutor(max_workers=2);jobs={};job_lock=threading.Lock()
+torch.set_num_threads(1)
+pool=ThreadPoolExecutor(max_workers=1);jobs={};job_lock=threading.Lock()
 @asynccontextmanager
 async def lifespan(app):
     initialize();yield
