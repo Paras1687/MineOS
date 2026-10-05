@@ -87,7 +87,23 @@ def gravity_grid():
     z = f.variables['z'][:]
     if z.shape != (len(lats), len(lons)):
         raise ValueError('Global gravity grid is incomplete')
-    return RegularGridInterpolator((lats, lons), z, bounds_error=True)
+        
+    class DirectInterpolator:
+        def __init__(self, lats, lons, z):
+            self.lats, self.lons, self.z = lats, lons, z
+            self.lat_step = (lats[-1] - lats[0]) / (len(lats) - 1)
+            self.lon_step = (lons[-1] - lons[0]) / (len(lons) - 1)
+        def __call__(self, pts):
+            res = []
+            for lat, lon in pts:
+                i = int(round((lat - self.lats[0]) / self.lat_step))
+                j = int(round((lon - self.lons[0]) / self.lon_step))
+                i = max(0, min(i, len(self.lats)-1))
+                j = max(0, min(j, len(self.lons)-1))
+                res.append(float(self.z[i, j]))
+            return res
+            
+    return DirectInterpolator(lats, lons, z)
 
 
 def prepare_image(bands):
