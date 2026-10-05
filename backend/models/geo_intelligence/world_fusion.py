@@ -80,12 +80,12 @@ def gravity_grid():
     expected=json.loads((ARTIFACTS/'world_fusion_metadata.json').read_text(encoding='utf-8')).get('gravity_sha256')
     if expected and hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
         raise RuntimeError('World gravity grid checksum mismatch')
-    with netcdf_file(path, 'r', mmap=False) as f:
-        lons = np.array(f.variables['x'][:], dtype='float64')
-        lats = np.array(f.variables['y'][:], dtype='float64')
-        z = np.array(f.variables['z'][:], dtype='float32')
-        z = z * getattr(f.variables['z'], 'scale_factor', 1) + getattr(f.variables['z'], 'add_offset', 0)
-    if z.shape != (len(lats), len(lons)) or not np.isfinite(z).all():
+    # Keep the file open to allow mmap, avoiding a 222MB+ copy into RAM
+    f = netcdf_file(path, 'r', mmap=True)
+    lons = f.variables['x'][:]
+    lats = f.variables['y'][:]
+    z = f.variables['z'][:]
+    if z.shape != (len(lats), len(lons)):
         raise ValueError('Global gravity grid is incomplete')
     return RegularGridInterpolator((lats, lons), z, bounds_error=True)
 
