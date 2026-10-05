@@ -1,0 +1,70 @@
+{
+  "version": "moil-world-fusion-spatial-full-v3",
+  "architecture": "Sentinel-2 CNN + normalized Bouguer fusion",
+  "architecture_options": {
+    "gravity_dropout_after_norm": true
+  },
+  "gravity_mean": 46.04936599731445,
+  "gravity_variance": 7236.29150390625,
+  "training_samples": 1782,
+  "positive_samples": 446,
+  "unknown_background_samples": 1336,
+  "full_dataset_fit": true,
+  "epochs": 23,
+  "calibrated": false,
+  "calibration_scope": "Uncalibrated full-data refit; score is not a field probability",
+  "temperature": 1.0,
+  "decision_threshold": 0.5,
+  "test": {
+    "n": 344,
+    "positives": 89,
+    "roc_auc": 0.9981053095395461,
+    "pr_auc": 0.995718558787027,
+    "accuracy": 0.9825581395348837,
+    "balanced_accuracy": 0.9845781009032826,
+    "precision": 0.946236559139785,
+    "recall": 0.9887640449438202,
+    "f1": 0.967032967032967,
+    "log_loss": 0.1471405178308487,
+    "brier": 0.01650014892220497,
+    "confusion_matrix": [
+      [
+        250,
+        5
+      ],
+      [
+        1,
+        88
+      ]
+    ],
+    "threshold": 0.47
+  },
+  "validation": {
+    "n": 352,
+    "positives": 88,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "log_loss": 0.005771336145699024,
+    "brier": 0.00114808464422822,
+    "confusion_matrix": [
+      [
+        264,
+        0
+      ],
+      [
+        0,
+        88
+      ]
+    ],
+    "threshold": 0.47
+  },
+  "model_sha256": "0797f36f2ef76e8c372949b0c8a559eb8868580b417b859ae166f5523f7e7b30",
+  "gravity_sha256": "5d974c014b19584f14f47bc4df1c13bd8ba482da8e819112eff8fd5ce6f9f1c1",
+  "warning": "Retrospective spatial holdout on previously supplied data, not a new external field test.; Unknown-background labels are not verified absence. Legacy raster scale/alignment and coordinate provenance remain unverified.; No guarantee of India field performance or absence of overfitting outside this sample.",
+  "evaluation_scope": "Metrics are from spatial holdout model selection before final all-data refit; not an independent evaluation of the deployed full-data checkpoint."
+}

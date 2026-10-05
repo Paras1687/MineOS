@@ -1,0 +1,51 @@
+/* Exploration layout adapts the supplied MOIL dashboard into the existing portal shell. */
+body.exploration-ui{--paper:#0d1117;--ink:#c9d1d9;--line:#30363d;--muted:#9ba7b2;--copper:#58a6ff;background:var(--paper);color:var(--ink)}
+body.exploration-ui:not(.dark){--paper:#f3f3ee;--ink:#242921;--line:#ddded5;--muted:#676e61;--copper:#985e2c;background:var(--paper);color:var(--ink)}
+body.exploration-ui:not(.dark) .bar,body.exploration-ui:not(.dark) .panel,body.exploration-ui:not(.dark) .metric,body.exploration-ui:not(.dark) .exp-console{background:#fff;color:#242921;border-color:#ddded5}
+body.exploration-ui:not(.dark) .exp-heading h1,body.exploration-ui:not(.dark) .exp-console h2{color:#242921}
+body.exploration-ui:not(.dark) .exp-kpi,body.exploration-ui:not(.dark) .details div{background:#f7f8f2;border-color:#ddded5}
+body.exploration-ui:not(.dark) .exp-kpi strong{color:#242921}
+body.exploration-ui:not(.dark) input,body.exploration-ui:not(.dark) select,body.exploration-ui:not(.dark) textarea,body.exploration-ui:not(.dark) button{background:#fff;color:#242921;border-color:#cdd1c3}
+body.exploration-ui:not(.dark) button.primary{background:#985e2c;color:white;border-color:#985e2c}
+body.exploration-ui:not(.dark) .estimate-card{background:#fff;border-color:#ddded5}
+body.exploration-ui:not(.dark) th{background:#f6f7f2;color:#242921}
+body.exploration-ui .bar,body.exploration-ui .panel,body.exploration-ui .metric{background:#161b22;color:#c9d1d9;border-color:#30363d}
+body.exploration-ui .panel{box-shadow:0 8px 28px #0003}
+body.exploration-ui .side{background:#161b22;border-right:1px solid #30363d}
+body.exploration-ui .side nav a.active{background:#202a35;border-left-color:#58a6ff}
+body.exploration-ui .map{background:#101820;border:1px solid #30363d}
+body.exploration-ui .notice{background:#2a241a;color:#e8c98c;border-left-color:#f0883e}
+body.exploration-ui .badge{background:#1d3147;color:#c8e1ff}
+body.exploration-ui .metric,body.exploration-ui .details div{background:#0d1117;border-color:#30363d}
+body.exploration-ui input,body.exploration-ui select,body.exploration-ui textarea,body.exploration-ui button{background:#0d1117;color:#c9d1d9;border-color:#30363d}
+body.exploration-ui button.primary{background:#1f6feb;color:white;border-color:#1f6feb}
+body.exploration-ui .estimate-card{border-color:#30363d;background:#111820}
+body.exploration-ui th{background:#161b22;color:#c9d1d9}
+body.exploration-ui tr:hover td{background:#202832}
+.exp-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:18px}
+.exp-heading h1{color:#f0f6fc}.exp-heading .sub{color:#9ba7b2;margin-bottom:0}
+.exp-layout{display:grid;grid-template-columns:minmax(260px,310px) minmax(0,1fr);gap:16px;align-items:stretch}
+.exp-console{background:#161b22;border:1px solid #30363d;border-radius:9px;padding:18px;min-width:0;max-height:calc(100vh - 190px);overflow:auto}
+.exp-console h2{color:#f0f6fc}.exp-console .form-grid{grid-template-columns:1fr 1fr}
+.exp-mine-select{margin:14px 0;color:#9ba7b2}.exp-mine-select select{font-weight:600}
+#nearby-scan{width:100%;background:#1f6feb;color:white;border-color:#1f6feb;font-weight:650;margin-top:10px}
+.nearby-estimate button{width:100%;text-align:left;background:#111820;border-color:#30363d;color:#c9d1d9}.nearby-estimate button b{color:#58a6ff}
+.exp-nearby{max-height:340px;overflow:auto}
+.exp-kpi{background:#0d1117;border:1px solid #30363d;border-radius:7px;padding:12px;margin:10px 0}
+.exp-kpi small{display:block;color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:.06em}.exp-kpi strong{display:block;color:#f0f6fc;font-size:18px;margin-top:5px;overflow-wrap:anywhere}
+.exp-status{color:#58a6ff!important}
+.exp-stage{display:grid;grid-template-rows:minmax(300px,40vh) minmax(340px,1fr);gap:14px;min-width:0}
+.exp-map-panel,.exp-evidence-panel{margin:0;min-height:0;overflow:auto}
+.exp-map-panel .map{height:calc(40vh - 95px);min-height:260px}
+.exp-evidence-panel{max-height:calc(100vh - 170px)}
+.exp-evidence-panel .result-img{width:min(260px,40%);image-rendering:auto}
+.exp-nearby{margin-top:16px;border-top:1px solid #30363d;padding-top:10px}
+.exp-ranking{margin-top:18px}
+.subsurface-empty{min-height:230px;border:1px solid #30363d;border-radius:8px;padding:22px;display:flex;flex-direction:column;justify-content:center;gap:12px;overflow:hidden;background-color:#0d1117;background-image:linear-gradient(#ffffff0a 1px,transparent 1px),linear-gradient(90deg,#ffffff0a 1px,transparent 1px);background-size:24px 24px;color:#c9d1d9}
+.subsurface-empty span{font-size:10px;letter-spacing:.14em;color:#58a6ff;font-weight:700}.subsurface-empty b{font-size:18px;color:#f0f6fc}.subsurface-empty small{line-height:1.6;color:#9ba7b2;max-width:420px}
+.exp-analysis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:stretch;margin:16px 0}.exp-heatmap{width:100%!important;max-height:250px;object-fit:contain;background:#0d1117}
+body.exploration-ui:not(.dark) .subsurface-empty{background-color:#f7f8f2;color:#242921;border-color:#ddded5;background-image:linear-gradient(#2429210a 1px,transparent 1px),linear-gradient(90deg,#2429210a 1px,transparent 1px)}
+body.exploration-ui:not(.dark) .subsurface-empty b{color:#242921}body.exploration-ui:not(.dark) .subsurface-empty small{color:#676e61}
+body.dark.exploration-ui .exp-console,body.dark.exploration-ui .panel,body.dark.exploration-ui .bar{background:#161b22}
+@media(max-width:1050px){.exp-layout{grid-template-columns:1fr}.exp-console{max-height:none}.exp-stage{grid-template-rows:minmax(340px,48vh) minmax(360px,auto)}.exp-evidence-panel{max-height:none}}
+@media(max-width:650px){.exp-heading{display:block}.exp-stage{grid-template-rows:minmax(320px,46vh) minmax(360px,auto)}.exp-console .form-grid{grid-template-columns:1fr 1fr}.exp-map-panel .map{height:calc(46vh - 90px);min-height:230px}.exp-evidence-panel .result-img{width:100%}.exp-analysis{grid-template-columns:1fr}}

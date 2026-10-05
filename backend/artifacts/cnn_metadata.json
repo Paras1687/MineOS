@@ -1,0 +1,149 @@
+{
+  "model": "MineOS compact 9-band CNN",
+  "bands": [
+    "B02",
+    "B03",
+    "B04",
+    "B08",
+    "B11",
+    "B12",
+    "NDVI",
+    "NDWI",
+    "NDMI"
+  ],
+  "size": 64,
+  "footprint_m": 1280,
+  "calibration_slope": 0.8956276774406433,
+  "calibration_intercept": -0.6744062900543213,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.8043558493904446,
+      "val_pr_auc": 0.8407251884331164
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6875538074451945,
+      "val_pr_auc": 0.836839005357177
+    },
+    {
+      "epoch": 3,
+      "loss": 0.639457731143288,
+      "val_pr_auc": 0.8166678002883816
+    },
+    {
+      "epoch": 4,
+      "loss": 0.6005844305390897,
+      "val_pr_auc": 0.8362476140398591
+    },
+    {
+      "epoch": 5,
+      "loss": 0.5953181696974713,
+      "val_pr_auc": 0.8281699484096329
+    },
+    {
+      "epoch": 6,
+      "loss": 0.6090096027954764,
+      "val_pr_auc": 0.8438805127062783
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5391897947891898,
+      "val_pr_auc": 0.8573509124729866
+    },
+    {
+      "epoch": 8,
+      "loss": 0.48574238756428595,
+      "val_pr_auc": 0.8458737012041699
+    },
+    {
+      "epoch": 9,
+      "loss": 0.5577316983886387,
+      "val_pr_auc": 0.8303758890524795
+    },
+    {
+      "epoch": 10,
+      "loss": 0.5337338045887325,
+      "val_pr_auc": 0.7851060715538374
+    },
+    {
+      "epoch": 11,
+      "loss": 0.49171465181786084,
+      "val_pr_auc": 0.8235775615799101
+    },
+    {
+      "epoch": 12,
+      "loss": 0.4797028452157974,
+      "val_pr_auc": 0.8188378007280178
+    },
+    {
+      "epoch": 13,
+      "loss": 0.4939232436211213,
+      "val_pr_auc": 0.8023920973497917
+    }
+  ],
+  "test": {
+    "n": 264,
+    "positive": 75,
+    "prevalence": 0.28409090638160706,
+    "pr_auc": 0.8532966437306059,
+    "roc_auc": 0.9154850088183422,
+    "precision": 0.9361702127659575,
+    "recall": 0.5866666666666667,
+    "f1": 0.7213114754098361,
+    "brier": 0.10051004588603973,
+    "confusion_matrix": [
+      [
+        186,
+        3
+      ],
+      [
+        31,
+        44
+      ]
+    ],
+    "spectral_mean_baseline": {
+      "n": 264,
+      "positive": 75,
+      "prevalence": 0.28409090638160706,
+      "pr_auc": 0.7612543295814336,
+      "roc_auc": 0.851358024691358,
+      "precision": 0.6575342465753424,
+      "recall": 0.64,
+      "f1": 0.6486486486486487,
+      "brier": 0.14338462054729462,
+      "confusion_matrix": [
+        [
+          164,
+          25
+        ],
+        [
+          27,
+          48
+        ]
+      ]
+    }
+  },
+  "device": "cpu",
+  "use": "Exploration screening only; calibrated to sampled dataset prevalence, not field occurrence probability",
+  "field_validated": false,
+  "dataset_summary": {
+    "selected": 1967,
+    "accepted": 1904,
+    "rejected": 63,
+    "positive": 449,
+    "user_designated_barren": 1455,
+    "spatial_groups_15km": 997,
+    "india_test": {
+      "n": 16,
+      "positive": 0,
+      "negative": 16
+    }
+  },
+  "negative_label_caveat": "User-designated true-barren terrain; barren status is not independently drill/assay verified.",
+  "deployment_policy": {
+    "comparative_ranking_enabled": false,
+    "india_validated": false,
+    "warning": "Experimental CNN index only. Global spatial test ROC-AUC 0.915 (264 patches) is not India performance: the India test subset had 0 positive patches. Barren labels are user-designated terrain, not independently assay-verified. Do not interpret the score as an occurrence probability or use it for automatic mine ranking."
+  }
+}

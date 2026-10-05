@@ -1,0 +1,996 @@
+[
+  {
+    "latitude": 21.816667,
+    "longitude": 80.166667,
+    "region": "MADHYA PRADESH",
+    "anchor": "1",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      1,
+      22
+    ],
+    "id": "occurrence_1"
+  },
+  {
+    "latitude": 21.892956487401356,
+    "longitude": 80.2489078843389,
+    "region": "MADHYA PRADESH",
+    "anchor": "1",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_1"
+  },
+  {
+    "latitude": 22.0,
+    "longitude": 80.233333,
+    "region": "MADHYA PRADESH",
+    "anchor": "2",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      2,
+      23
+    ],
+    "id": "occurrence_2"
+  },
+  {
+    "latitude": 22.076289298297176,
+    "longitude": 80.31568019100274,
+    "region": "MADHYA PRADESH",
+    "anchor": "2",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_2"
+  },
+  {
+    "latitude": 21.716667,
+    "longitude": 79.75,
+    "region": "MADHYA PRADESH",
+    "anchor": "3",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      3,
+      15
+    ],
+    "id": "occurrence_3"
+  },
+  {
+    "latitude": 21.7929565903442,
+    "longitude": 79.83218336872241,
+    "region": "MADHYA PRADESH",
+    "anchor": "3",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_3"
+  },
+  {
+    "latitude": 21.683333,
+    "longitude": 79.733333,
+    "region": "MADHYA PRADESH",
+    "anchor": "4",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      4,
+      16
+    ],
+    "id": "occurrence_4"
+  },
+  {
+    "latitude": 21.759622624627216,
+    "longitude": 79.81549726993933,
+    "region": "MADHYA PRADESH",
+    "anchor": "4",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_4"
+  },
+  {
+    "latitude": 21.966667,
+    "longitude": 80.466667,
+    "region": "MADHYA PRADESH",
+    "anchor": "5",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      5,
+      29,
+      30
+    ],
+    "id": "occurrence_5"
+  },
+  {
+    "latitude": 22.04295633271586,
+    "longitude": 80.54899477952692,
+    "region": "MADHYA PRADESH",
+    "anchor": "5",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_5"
+  },
+  {
+    "latitude": 21.833333,
+    "longitude": 80.366667,
+    "region": "MADHYA PRADESH",
+    "anchor": "6",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      6,
+      24
+    ],
+    "id": "occurrence_6"
+  },
+  {
+    "latitude": 21.909622470230875,
+    "longitude": 80.44891750208429,
+    "region": "MADHYA PRADESH",
+    "anchor": "6",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_6"
+  },
+  {
+    "latitude": 21.41878833,
+    "longitude": 79.1,
+    "region": "MADHYA PRADESH",
+    "anchor": "7",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      7
+    ],
+    "id": "occurrence_7"
+  },
+  {
+    "latitude": 21.495078226141768,
+    "longitude": 79.18201399578747,
+    "region": "MADHYA PRADESH",
+    "anchor": "7",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_7"
+  },
+  {
+    "latitude": 21.3333330003,
+    "longitude": 79.2666670002,
+    "region": "MADHYA PRADESH",
+    "anchor": "8",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      8
+    ],
+    "id": "occurrence_8"
+  },
+  {
+    "latitude": 21.409622983937137,
+    "longitude": 79.34863294364169,
+    "region": "MADHYA PRADESH",
+    "anchor": "8",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_8"
+  },
+  {
+    "latitude": 21.4167436996,
+    "longitude": 79.3033694148,
+    "region": "MADHYA PRADESH",
+    "anchor": "9",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      9
+    ],
+    "id": "occurrence_9"
+  },
+  {
+    "latitude": 21.4930335978364,
+    "longitude": 79.38538225808375,
+    "region": "MADHYA PRADESH",
+    "anchor": "9",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_9"
+  },
+  {
+    "latitude": 21.3486571448,
+    "longitude": 79.31426769,
+    "region": "MADHYA PRADESH",
+    "anchor": "10",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      10
+    ],
+    "id": "occurrence_10"
+  },
+  {
+    "latitude": 21.424947112754705,
+    "longitude": 79.39624223279391,
+    "region": "MADHYA PRADESH",
+    "anchor": "10",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_10"
+  },
+  {
+    "latitude": 21.5794225155,
+    "longitude": 79.4263446656,
+    "region": "MADHYA PRADESH",
+    "anchor": "11",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      11
+    ],
+    "id": "occurrence_11"
+  },
+  {
+    "latitude": 21.655712246894016,
+    "longitude": 79.5084496349792,
+    "region": "MADHYA PRADESH",
+    "anchor": "11",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_11"
+  },
+  {
+    "latitude": 21.383333,
+    "longitude": 79.4499999997,
+    "region": "MADHYA PRADESH",
+    "anchor": "12",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      12
+    ],
+    "id": "occurrence_12"
+  },
+  {
+    "latitude": 21.459622932455957,
+    "longitude": 79.53199402964104,
+    "region": "MADHYA PRADESH",
+    "anchor": "12",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_12"
+  },
+  {
+    "latitude": 21.4044830001,
+    "longitude": 79.500383,
+    "region": "MADHYA PRADESH",
+    "anchor": "13",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      13
+    ],
+    "id": "occurrence_13"
+  },
+  {
+    "latitude": 21.480772910895748,
+    "longitude": 79.58238893512377,
+    "region": "MADHYA PRADESH",
+    "anchor": "13",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_13"
+  },
+  {
+    "latitude": 21.5029500004,
+    "longitude": 79.6813670003,
+    "region": "MADHYA PRADESH",
+    "anchor": "14",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      14
+    ],
+    "id": "occurrence_14"
+  },
+  {
+    "latitude": 21.57923981027042,
+    "longitude": 79.76342855462158,
+    "region": "MADHYA PRADESH",
+    "anchor": "14",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_14"
+  },
+  {
+    "latitude": 21.5464500004,
+    "longitude": 79.7756,
+    "region": "MADHYA PRADESH",
+    "anchor": "17",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      17
+    ],
+    "id": "occurrence_17"
+  },
+  {
+    "latitude": 21.622739765640727,
+    "longitude": 79.85768622662299,
+    "region": "MADHYA PRADESH",
+    "anchor": "17",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_17"
+  },
+  {
+    "latitude": 21.4500000003,
+    "longitude": 79.7666669996,
+    "region": "MADHYA PRADESH",
+    "anchor": "18",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      18
+    ],
+    "id": "occurrence_18"
+  },
+  {
+    "latitude": 21.526289864459383,
+    "longitude": 79.84869860556802,
+    "region": "MADHYA PRADESH",
+    "anchor": "18",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_18"
+  },
+  {
+    "latitude": 21.8804000002,
+    "longitude": 79.9795829997,
+    "region": "MADHYA PRADESH",
+    "anchor": "19",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      19
+    ],
+    "id": "occurrence_19"
+  },
+  {
+    "latitude": 21.95668942191746,
+    "longitude": 80.06186071332843,
+    "region": "MADHYA PRADESH",
+    "anchor": "19",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_19"
+  },
+  {
+    "latitude": 21.8692669999,
+    "longitude": 79.9614169998,
+    "region": "MADHYA PRADESH",
+    "anchor": "20",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      20
+    ],
+    "id": "occurrence_20"
+  },
+  {
+    "latitude": 21.945556433095486,
+    "longitude": 80.04368827030274,
+    "region": "MADHYA PRADESH",
+    "anchor": "20",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_20"
+  },
+  {
+    "latitude": 21.5399954904,
+    "longitude": 79.9604901745,
+    "region": "MADHYA PRADESH",
+    "anchor": "21",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      21
+    ],
+    "id": "occurrence_21"
+  },
+  {
+    "latitude": 21.616285262264554,
+    "longitude": 80.0425727363314,
+    "region": "MADHYA PRADESH",
+    "anchor": "21",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_21"
+  },
+  {
+    "latitude": 21.9416666665,
+    "longitude": 80.3833333332,
+    "region": "MADHYA PRADESH",
+    "anchor": "25",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      25
+    ],
+    "id": "occurrence_25"
+  },
+  {
+    "latitude": 22.01795602501983,
+    "longitude": 80.46564657806492,
+    "region": "MADHYA PRADESH",
+    "anchor": "25",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_25"
+  },
+  {
+    "latitude": 21.9238329999,
+    "longitude": 80.4806999996,
+    "region": "MADHYA PRADESH",
+    "anchor": "26",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      26
+    ],
+    "id": "occurrence_26"
+  },
+  {
+    "latitude": 22.000122376821203,
+    "longitude": 80.56300288906066,
+    "region": "MADHYA PRADESH",
+    "anchor": "26",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_26"
+  },
+  {
+    "latitude": 21.9333329998,
+    "longitude": 80.4166670001,
+    "region": "MADHYA PRADESH",
+    "anchor": "27",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      27
+    ],
+    "id": "occurrence_27"
+  },
+  {
+    "latitude": 22.009622366919363,
+    "longitude": 80.49897540457101,
+    "region": "MADHYA PRADESH",
+    "anchor": "27",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_27"
+  },
+  {
+    "latitude": 21.9533330003,
+    "longitude": 80.4387669996,
+    "region": "MADHYA PRADESH",
+    "anchor": "28",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      28
+    ],
+    "id": "occurrence_28"
+  },
+  {
+    "latitude": 22.029622346779615,
+    "longitude": 80.52108702443408,
+    "region": "MADHYA PRADESH",
+    "anchor": "28",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_28"
+  },
+  {
+    "latitude": 22.0416700005,
+    "longitude": 84.10832999997,
+    "region": "ODISHA",
+    "anchor": "201",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      201
+    ],
+    "id": "occurrence_201"
+  },
+  {
+    "latitude": 22.117959255747103,
+    "longitude": 84.19070150960108,
+    "region": "ODISHA",
+    "anchor": "201",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_201"
+  },
+  {
+    "latitude": 21.8166670003,
+    "longitude": 85.15000000004,
+    "region": "ODISHA",
+    "anchor": "202",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      202
+    ],
+    "id": "occurrence_202"
+  },
+  {
+    "latitude": 21.74033682787775,
+    "longitude": 85.23215323688044,
+    "region": "ODISHA",
+    "anchor": "202",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_202"
+  },
+  {
+    "latitude": 21.8333330001,
+    "longitude": 85.35,
+    "region": "ODISHA",
+    "anchor": "203",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      203
+    ],
+    "id": "occurrence_203"
+  },
+  {
+    "latitude": 21.90962247033088,
+    "longitude": 85.43225050208434,
+    "region": "ODISHA",
+    "anchor": "203",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_203"
+  },
+  {
+    "latitude": 21.9000000004,
+    "longitude": 85.25000000003,
+    "region": "ODISHA",
+    "anchor": "204",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      204
+    ],
+    "id": "occurrence_204"
+  },
+  {
+    "latitude": 21.97628940190565,
+    "longitude": 85.16771093307116,
+    "region": "ODISHA",
+    "anchor": "204",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_204"
+  },
+  {
+    "latitude": 21.9999999996,
+    "longitude": 85.33299999999,
+    "region": "ODISHA",
+    "anchor": "205",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      205
+    ],
+    "id": "occurrence_205"
+  },
+  {
+    "latitude": 22.076289297897176,
+    "longitude": 85.41534719099249,
+    "region": "ODISHA",
+    "anchor": "205",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_205"
+  },
+  {
+    "latitude": 22.016667,
+    "longitude": 85.36666670003,
+    "region": "ODISHA",
+    "anchor": "206",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      206
+    ],
+    "id": "occurrence_206"
+  },
+  {
+    "latitude": 22.09295628108123,
+    "longitude": 85.44902361094994,
+    "region": "ODISHA",
+    "anchor": "206",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_206"
+  },
+  {
+    "latitude": 22.0499999999,
+    "longitude": 85.39999999996,
+    "region": "ODISHA",
+    "anchor": "207",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      207
+    ],
+    "id": "occurrence_207"
+  },
+  {
+    "latitude": 22.126289246538164,
+    "longitude": 85.48237637793109,
+    "region": "ODISHA",
+    "anchor": "207",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_207"
+  },
+  {
+    "latitude": 20.425,
+    "longitude": 83.036111111,
+    "region": "ODISHA",
+    "anchor": "208",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      208
+    ],
+    "id": "occurrence_208"
+  },
+  {
+    "latitude": 20.501290907444893,
+    "longitude": 83.1175809012151,
+    "region": "ODISHA",
+    "anchor": "208",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_208"
+  },
+  {
+    "latitude": 19.3994960124,
+    "longitude": 83.2831199216,
+    "region": "ODISHA",
+    "anchor": "209",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      209
+    ],
+    "id": "occurrence_209"
+  },
+  {
+    "latitude": 19.47578794976728,
+    "longitude": 83.36406101485125,
+    "region": "ODISHA",
+    "anchor": "209",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_209"
+  },
+  {
+    "latitude": 19.2166670002,
+    "longitude": 83.21666669999,
+    "region": "ODISHA",
+    "anchor": "210",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      210
+    ],
+    "id": "occurrence_210"
+  },
+  {
+    "latitude": 19.292959119797153,
+    "longitude": 83.29751696844357,
+    "region": "ODISHA",
+    "anchor": "210",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_210"
+  },
+  {
+    "latitude": 18.36666669997,
+    "longitude": 83.48333299996,
+    "region": "ANDHRA",
+    "anchor": "211",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      211
+    ],
+    "id": "occurrence_211"
+  },
+  {
+    "latitude": 18.442959661522064,
+    "longitude": 83.56377438726834,
+    "region": "ANDHRA",
+    "anchor": "211",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_211"
+  },
+  {
+    "latitude": 18.3498314974,
+    "longitude": 83.5501925047,
+    "region": "ANDHRA",
+    "anchor": "212",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      212
+    ],
+    "id": "occurrence_212"
+  },
+  {
+    "latitude": 18.42612447554257,
+    "longitude": 83.63062601389313,
+    "region": "ANDHRA",
+    "anchor": "212",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_212"
+  },
+  {
+    "latitude": 18.3917611048,
+    "longitude": 83.631774571,
+    "region": "ANDHRA",
+    "anchor": "213",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      213
+    ],
+    "id": "occurrence_213"
+  },
+  {
+    "latitude": 18.468054041616362,
+    "longitude": 83.71222771711759,
+    "region": "ANDHRA",
+    "anchor": "213",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_213"
+  },
+  {
+    "latitude": 18.266667,
+    "longitude": 83.5500000001,
+    "region": "ANDHRA",
+    "anchor": "214",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      214
+    ],
+    "id": "occurrence_214"
+  },
+  {
+    "latitude": 18.3429600600507,
+    "longitude": 83.63039471648592,
+    "region": "ANDHRA",
+    "anchor": "214",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_214"
+  },
+  {
+    "latitude": 18.0992766664,
+    "longitude": 83.5504892755,
+    "region": "ANDHRA",
+    "anchor": "215",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      215
+    ],
+    "id": "occurrence_215"
+  },
+  {
+    "latitude": 18.175569891073817,
+    "longitude": 83.63080653718853,
+    "region": "ANDHRA",
+    "anchor": "215",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_215"
+  },
+  {
+    "latitude": 13.31666669999,
+    "longitude": 76.71666669997,
+    "region": "KARNATAKA",
+    "anchor": "216",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      216
+    ],
+    "id": "occurrence_216"
+  },
+  {
+    "latitude": 13.392964508711628,
+    "longitude": 76.79510985637629,
+    "region": "KARNATAKA",
+    "anchor": "216",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_216"
+  },
+  {
+    "latitude": 14.5457484637,
+    "longitude": 76.2084923039,
+    "region": "KARNATAKA",
+    "anchor": "217",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      217
+    ],
+    "id": "occurrence_217"
+  },
+  {
+    "latitude": 14.62204511442723,
+    "longitude": 76.28735638723691,
+    "region": "KARNATAKA",
+    "anchor": "217",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_217"
+  },
+  {
+    "latitude": 15.2666670002,
+    "longitude": 74.44999999998,
+    "region": "KARNATAKA",
+    "anchor": "218",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      218
+    ],
+    "id": "occurrence_218"
+  },
+  {
+    "latitude": 15.342962965722492,
+    "longitude": 74.52913009575681,
+    "region": "KARNATAKA",
+    "anchor": "218",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_218"
+  },
+  {
+    "latitude": 15.1666669998,
+    "longitude": 74.36666669999,
+    "region": "KARNATAKA",
+    "anchor": "219",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      219
+    ],
+    "id": "occurrence_219"
+  },
+  {
+    "latitude": 15.090343389077335,
+    "longitude": 74.44570195274741,
+    "region": "KARNATAKA",
+    "anchor": "219",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_219"
+  },
+  {
+    "latitude": 22.4165150475,
+    "longitude": 73.6672497398,
+    "region": "GUJARAT",
+    "anchor": "220",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      220
+    ],
+    "id": "occurrence_220"
+  },
+  {
+    "latitude": 22.49280391433477,
+    "longitude": 73.74984262432412,
+    "region": "GUJARAT",
+    "anchor": "220",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_220"
+  },
+  {
+    "latitude": 22.4542510253,
+    "longitude": 73.7827285908,
+    "region": "GUJARAT",
+    "anchor": "221",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      221
+    ],
+    "id": "occurrence_221"
+  },
+  {
+    "latitude": 22.5305398529169,
+    "longitude": 73.86534402338768,
+    "region": "GUJARAT",
+    "anchor": "221",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_221"
+  },
+  {
+    "latitude": 23.26434538,
+    "longitude": 74.3433766523,
+    "region": "RAJASTHAN",
+    "anchor": "222",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      222
+    ],
+    "id": "occurrence_222"
+  },
+  {
+    "latitude": 23.3406333604548,
+    "longitude": 74.42648784927917,
+    "region": "RAJASTHAN",
+    "anchor": "222",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_222"
+  },
+  {
+    "latitude": 23.3666878235,
+    "longitude": 74.2029415722,
+    "region": "RAJASTHAN",
+    "anchor": "223",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      223
+    ],
+    "id": "occurrence_223"
+  },
+  {
+    "latitude": 23.44297569620044,
+    "longitude": 74.28611701068083,
+    "region": "RAJASTHAN",
+    "anchor": "223",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_223"
+  },
+  {
+    "latitude": 34.6664756674,
+    "longitude": 77.2883331373,
+    "region": "LADAKH",
+    "anchor": "224",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      224
+    ],
+    "id": "occurrence_224"
+  },
+  {
+    "latitude": 34.74275033236631,
+    "longitude": 77.38119924682371,
+    "region": "LADAKH",
+    "anchor": "224",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_224"
+  }
+]

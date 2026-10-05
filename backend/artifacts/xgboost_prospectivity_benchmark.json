@@ -1,0 +1,128 @@
+{
+  "model": "XGBoost on nine-band pixel-distribution summaries",
+  "features_per_patch": 64,
+  "split_source": "same 15 km grouped train/validation/calibration/test manifest as CNN",
+  "selection_metric": "validation ROC-AUC; held-out test untouched until final selection",
+  "validation_candidates": [
+    {
+      "config": {
+        "max_depth": 2,
+        "learning_rate": 0.03,
+        "n_estimators": 500,
+        "min_child_weight": 8,
+        "reg_lambda": 5
+      },
+      "best_iteration": 31,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6635410364992941,
+        "pr_auc": 0.399565125909032,
+        "brier": 0.2435862123966217
+      }
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "n_estimators": 500,
+        "min_child_weight": 8,
+        "reg_lambda": 8
+      },
+      "best_iteration": 31,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.662734422262553,
+        "pr_auc": 0.395105104255595,
+        "brier": 0.24358578026294708
+      }
+    },
+    {
+      "config": {
+        "max_depth": 2,
+        "learning_rate": 0.06,
+        "n_estimators": 300,
+        "min_child_weight": 12,
+        "reg_lambda": 10
+      },
+      "best_iteration": 34,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6482657793910063,
+        "pr_auc": 0.4043709600134715,
+        "brier": 0.24120934307575226
+      }
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.06,
+        "n_estimators": 300,
+        "min_child_weight": 12,
+        "reg_lambda": 10
+      },
+      "best_iteration": 31,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6447872554950596,
+        "pr_auc": 0.37017426942691023,
+        "brier": 0.2395065873861313
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "n_estimators": 500,
+      "min_child_weight": 8,
+      "reg_lambda": 5
+    },
+    "best_iteration": 31,
+    "validation": {
+      "n": 229,
+      "positive": 58,
+      "prevalence": 0.25327510917030566,
+      "roc_auc": 0.6635410364992941,
+      "pr_auc": 0.399565125909032,
+      "brier": 0.2435862123966217
+    }
+  },
+  "test": {
+    "n": 306,
+    "positive": 76,
+    "prevalence": 0.24836601307189543,
+    "roc_auc": 0.6070366132723112,
+    "pr_auc": 0.35418584066017444,
+    "brier": 0.2439851015806198
+  },
+  "cnn_same_test": {
+    "roc_auc": 0.5321510297482838,
+    "pr_auc": 0.2811960967158177,
+    "n": 306,
+    "positive": 76
+  },
+  "auc_difference_vs_cnn": 0.07488558352402741,
+  "paired_spatial_group_bootstrap": {
+    "test_spatial_groups": 37,
+    "valid_replicates": 2000,
+    "delta_vs_cnn_95pct": [
+      -0.03258060593088414,
+      0.20381019967976294
+    ]
+  },
+  "india_test_subset": {
+    "n": 0,
+    "positive": 0,
+    "spatial_groups": 0
+  },
+  "deployment": "Benchmark only. Do not deploy unless independent repeat spatial folds and India-local validation support the gain.",
+  "limitations": "Labels are supplied folder classes; background is not verified barren ground. Global test performance does not establish India transfer."
+}

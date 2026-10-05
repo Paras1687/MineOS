@@ -1,0 +1,121 @@
+{
+  "model": "Random Forest on nine-band pixel-distribution summaries",
+  "features_per_patch": 64,
+  "split_source": "same spatially grouped train/validation/calibration/test manifest as CNN and XGBoost",
+  "selection_metric": "validation ROC-AUC; test scored after selection",
+  "validation_candidates": [
+    {
+      "config": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6387376487194999,
+        "pr_auc": 0.43041358293389864,
+        "brier": 0.20480879143985936
+      }
+    },
+    {
+      "config": {
+        "n_estimators": 500,
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "max_features": 0.7
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6423674127848357,
+        "pr_auc": 0.3880309320198654,
+        "brier": 0.19322801144633814
+      }
+    },
+    {
+      "config": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "max_features": 0.7
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6502319015930632,
+        "pr_auc": 0.3845558940058517,
+        "brier": 0.18739770663065508
+      }
+    },
+    {
+      "config": {
+        "n_estimators": 500,
+        "max_depth": 6,
+        "min_samples_leaf": 10,
+        "max_features": 0.5
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.6632385561605162,
+        "pr_auc": 0.39292962602350945,
+        "brier": 0.21773424409972503
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "n_estimators": 500,
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "max_features": 0.5
+    },
+    "validation": {
+      "n": 229,
+      "positive": 58,
+      "prevalence": 0.25327510917030566,
+      "roc_auc": 0.6632385561605162,
+      "pr_auc": 0.39292962602350945,
+      "brier": 0.21773424409972503
+    }
+  },
+  "test": {
+    "n": 306,
+    "positive": 76,
+    "prevalence": 0.24836601307189543,
+    "roc_auc": 0.5741990846681923,
+    "pr_auc": 0.33904643103063714,
+    "brier": 0.2243679423456608
+  },
+  "cnn_same_test": {
+    "roc_auc": 0.5321510297482838,
+    "pr_auc": 0.2811960967158177,
+    "n": 306
+  },
+  "xgboost_same_test": {
+    "roc_auc": 0.6070366132723112,
+    "pr_auc": 0.35418584066017444,
+    "n": 306
+  },
+  "auc_difference_vs_cnn": 0.042048054919908484,
+  "paired_spatial_group_bootstrap_vs_cnn": {
+    "test_spatial_groups": 37,
+    "valid_replicates": 2000,
+    "delta_vs_cnn_95pct": [
+      -0.05479452326226522,
+      0.17081238554666298
+    ]
+  },
+  "india_test_subset": {
+    "n": 0,
+    "positive": 0,
+    "spatial_groups": 0
+  },
+  "deployment": "Benchmark only; India test subset has no patches and background labels are not verified barren ground."
+}

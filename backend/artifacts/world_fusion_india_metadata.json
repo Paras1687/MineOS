@@ -1,0 +1,40 @@
+{
+  "version": "moil-india-fusion-adaptation-v1",
+  "architecture": "Sentinel-2 CNN + normalized Bouguer fusion",
+  "architecture_options": {
+    "gravity_dropout_after_norm": true
+  },
+  "gravity_mean": 46.04936599731445,
+  "gravity_variance": 7236.29150390625,
+  "training_samples": 128,
+  "positive_samples": 30,
+  "true_barren_samples": 98,
+  "calibrated": false,
+  "temperature": 1.0,
+  "decision_threshold": 0.5,
+  "model_sha256": "1a388a46d8697a95adcc0c5fb0c578e729e05243b735c109edacc3771db02065",
+  "gravity_sha256": "5d974c014b19584f14f47bc4df1c13bd8ba482da8e819112eff8fd5ce6f9f1c1",
+  "evaluation": {
+    "n": 128,
+    "positives": 30,
+    "negatives": 98,
+    "groups": 108,
+    "roc_auc": 0.9935374149659864,
+    "pr_auc": 0.9694621923244481,
+    "balanced_accuracy_at_0_5": 0.9897959183673469,
+    "positive_median": 0.9827385544776917,
+    "negative_median": 0.006040830397978425,
+    "valid_for_national_claims": false,
+    "coordinates_only_auc": 1.0,
+    "pretraining_site_overlap_not_excluded": true
+  },
+  "evaluation_method": "Legacy 5km grouped fine-tuning diagnostic; initialization previously saw these sites. NOT independent validation.",
+  "score_meaning": "Uncalibrated screening score learned from supplied India occurrence and selected true-barren patches; not a field-confirmed probability.",
+  "limitations": "Location-only classifier achieves ROC-AUC 1.00 on this sample. Positive mine-belt versus desert contrast is geographically confounded; pretrained initialization did not exclude evaluation locations. Nationwide skill is unproven.",
+  "augmentation": [
+    "horizontal_flip",
+    "vertical_flip",
+    "90_degree_rotation"
+  ],
+  "evaluation_independent": false
+}

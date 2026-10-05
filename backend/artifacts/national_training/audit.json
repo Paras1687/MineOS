@@ -1,0 +1,43 @@
+{
+  "source": "D:\\Sample MOIL final SIH'26\\India_existing_mines.csv",
+  "source_sha256": "d97a0b3454f9125cab90cf941e6f3bfd4cad2a3cd05b5dbf78db18a7331d7204",
+  "original_rows": 54,
+  "unique_location_groups": 47,
+  "requested": 94,
+  "accepted": 92,
+  "rejected": 2,
+  "preprocessing": "s2-aligned-20m-1280m-v2",
+  "date_range": "2025-01-01/2025-12-31",
+  "regions": {
+    "ANDHRA": {
+      "0": 5,
+      "1": 5
+    },
+    "GUJARAT": {
+      "0": 2,
+      "1": 2
+    },
+    "KARNATAKA": {
+      "0": 4,
+      "1": 4
+    },
+    "LADAKH": {
+      "0": 0,
+      "1": 0
+    },
+    "MADHYA PRADESH": {
+      "0": 23,
+      "1": 23
+    },
+    "ODISHA": {
+      "0": 10,
+      "1": 10
+    },
+    "RAJASTHAN": {
+      "0": 2,
+      "1": 2
+    }
+  },
+  "label_scope": "Supplied occurrence versus sampled unlabelled background. Source provenance is unverified; no reserve/absence inference.",
+  "legacy_positive_india_excluded": "Unaligned 10m/20m bands, divided index channels and missing raster georeferencing in legacy downloader"
+}

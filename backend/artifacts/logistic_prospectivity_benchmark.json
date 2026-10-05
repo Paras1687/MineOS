@@ -1,0 +1,205 @@
+{
+  "model": "Scaled logistic regression on nine-band pixel-distribution summaries",
+  "features_per_patch": 64,
+  "split_source": "same spatially grouped train/validation/calibration/test manifest",
+  "selection_metric": "validation ROC-AUC; test scored after selection",
+  "validation_candidates": [
+    {
+      "config": {
+        "C": 0.01,
+        "class_weight": null
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5326678765880217,
+        "pr_auc": 0.3168893516661605,
+        "brier": 0.18713831901550293
+      }
+    },
+    {
+      "config": {
+        "C": 0.01,
+        "class_weight": "balanced"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5345835854002823,
+        "pr_auc": 0.316692509411993,
+        "brier": 0.2522725462913513
+      }
+    },
+    {
+      "config": {
+        "C": 0.1,
+        "class_weight": null
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5547489413188142,
+        "pr_auc": 0.33077292749807996,
+        "brier": 0.1867285966873169
+      }
+    },
+    {
+      "config": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5573704375882234,
+        "pr_auc": 0.3307947967483957,
+        "brier": 0.2503701448440552
+      }
+    },
+    {
+      "config": {
+        "C": 1,
+        "class_weight": null
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5662431941923775,
+        "pr_auc": 0.3233594200628298,
+        "brier": 0.18839551508426666
+      }
+    },
+    {
+      "config": {
+        "C": 1,
+        "class_weight": "balanced"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5579753982657795,
+        "pr_auc": 0.32419664954533767,
+        "brier": 0.2500075399875641
+      }
+    },
+    {
+      "config": {
+        "C": 10,
+        "class_weight": null
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5692679975801573,
+        "pr_auc": 0.3303774000753944,
+        "brier": 0.19169017672538757
+      }
+    },
+    {
+      "config": {
+        "C": 10,
+        "class_weight": "balanced"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5579753982657795,
+        "pr_auc": 0.3282220556267029,
+        "brier": 0.2523185908794403
+      }
+    },
+    {
+      "config": {
+        "C": 100,
+        "class_weight": null
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5762250453720508,
+        "pr_auc": 0.332929048416875,
+        "brier": 0.19769467413425446
+      }
+    },
+    {
+      "config": {
+        "C": 100,
+        "class_weight": "balanced"
+      },
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5701754385964912,
+        "pr_auc": 0.32994671129639574,
+        "brier": 0.255682110786438
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "C": 100,
+      "class_weight": null
+    },
+    "validation": {
+      "n": 229,
+      "positive": 58,
+      "prevalence": 0.25327510917030566,
+      "roc_auc": 0.5762250453720508,
+      "pr_auc": 0.332929048416875,
+      "brier": 0.19769467413425446
+    }
+  },
+  "test": {
+    "n": 306,
+    "positive": 76,
+    "prevalence": 0.24836601307189543,
+    "roc_auc": 0.5022883295194508,
+    "pr_auc": 0.26202783277090974,
+    "brier": 0.2071288526058197
+  },
+  "cnn_same_test": {
+    "roc_auc": 0.5321510297482838,
+    "pr_auc": 0.2811960967158177,
+    "n": 306
+  },
+  "xgboost_same_test": {
+    "roc_auc": 0.6070366132723112,
+    "pr_auc": 0.35418584066017444,
+    "n": 306
+  },
+  "random_forest_same_test": {
+    "roc_auc": 0.5741990846681923,
+    "pr_auc": 0.33904643103063714,
+    "n": 306
+  },
+  "naive_bayes_same_test": {
+    "roc_auc": 0.5189359267734555,
+    "pr_auc": 0.2550589055573052,
+    "n": 306
+  },
+  "auc_difference_vs_cnn": -0.029862700228832972,
+  "paired_spatial_group_bootstrap_vs_cnn": {
+    "test_spatial_groups": 37,
+    "valid_replicates": 2000,
+    "delta_vs_cnn_95pct": [
+      -0.10582476498359691,
+      0.059021973674549345
+    ]
+  },
+  "india_test_subset": {
+    "n": 0,
+    "positive": 0,
+    "spatial_groups": 0
+  },
+  "deployment": "Benchmark only; India test subset has no patches and background labels are not verified barren ground."
+}

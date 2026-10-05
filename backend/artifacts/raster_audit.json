@@ -1,0 +1,296 @@
+{
+  "total_files": 1967,
+  "accepted": 1904,
+  "rejected": [
+    {
+      "file": "D:\\sih data\\Positive\\Bald Knob Deposit_2026-08-25_Stacked_9Band.tif",
+      "reason": "Only 72% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Big Little Bear Mine_2026-08-31_Stacked_9Band.tif",
+      "reason": "Only 47% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Black Feather Claim_2026-08-25_Stacked_9Band.tif",
+      "reason": "Only 6% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Cliff Claim_2026-08-25_Stacked_9Band.tif",
+      "reason": "Only 69% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Cochise Group_2026-08-21_Stacked_9Band.tif",
+      "reason": "Only 31% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Fourth of July No.4 Claim_2026-09-10_Stacked_9Band.tif",
+      "reason": "Only 2% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Lava Hot Springs_2026-08-31_Stacked_9Band.tif",
+      "reason": "Only 38% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Maggie 1-A-Adit_2026-08-22_Stacked_9Band.tif",
+      "reason": "Only 1% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\McCumber Mine (Macumber Mine)_2026-08-15_Stacked_9Band.tif",
+      "reason": "Only 69% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Molango_2026-05-05_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Mono Manganese No.7 Prospect_2026-08-30_Stacked_9Band.tif",
+      "reason": "Only 78% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 22)_2026-05-12_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 23)_2026-05-12_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 4)_2026-06-11_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 5)_2026-05-12_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 6)_2026-05-12_Stacked_9Band.tif",
+      "reason": "Duplicate pixels"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\MP Mine (FID_ 7)_2026-06-19_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\National Defense Claim_2026-08-19_Stacked_9Band.tif",
+      "reason": "Only 25% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Positive\\Stowe Mine_2026-08-25_Stacked_9Band.tif",
+      "reason": "Only 7% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Arabian_Shield_Barren_1_2026-09-27_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Arabian_Shield_Barren_5_2026-09-21_Stacked_9Band.tif",
+      "reason": "Only 56% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Arabian_Shield_Barren_67_2026-09-21_Stacked_9Band.tif",
+      "reason": "Only 38% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Arabian_Shield_Barren_80_2026-09-16_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Atacama_Barren_Chile_71_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 64% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Chihuahuan_Desert_Mex_18_2026-08-26_Stacked_9Band.tif",
+      "reason": "Only 16% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Chihuahuan_Desert_Mex_33_2026-09-21_Stacked_9Band.tif",
+      "reason": "Only 50% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Chihuahuan_Desert_Mex_71_2026-09-21_Stacked_9Band.tif",
+      "reason": "Only 34% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Chihuahuan_Desert_Mex_85_2026-09-13_Stacked_9Band.tif",
+      "reason": "Only 79% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Colorado_Plateau_USA_19_2026-09-10_Stacked_9Band.tif",
+      "reason": "Only 31% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Colorado_Plateau_USA_39_2026-09-10_Stacked_9Band.tif",
+      "reason": "Only 66% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Colorado_Plateau_USA_46_2026-09-10_Stacked_9Band.tif",
+      "reason": "Only 53% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Colorado_Plateau_USA_87_2026-09-10_Stacked_9Band.tif",
+      "reason": "Only 12% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Dasht_e_Kavir_Iran_58_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 6% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Death_Valley_USA_15_2026-09-24_Stacked_9Band.tif",
+      "reason": "Only 59% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Death_Valley_USA_1_2026-09-24_Stacked_9Band.tif",
+      "reason": "Only 59% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Gobi_Desert_Rock_35_2026-09-16_Stacked_9Band.tif",
+      "reason": "Only 38% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Gobi_Desert_Rock_76_2026-09-20_Stacked_9Band.tif",
+      "reason": "Only 22% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Gobi_Desert_Rock_95_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 10% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Namib_Desert_14_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Namib_Desert_48_2026-09-05_Stacked_9Band.tif",
+      "reason": "Only 62% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Namib_Desert_73_2026-09-15_Stacked_9Band.tif",
+      "reason": "Only 25% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_12_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 56% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_21_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 66% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_32_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 72% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_74_2026-09-20_Stacked_9Band.tif",
+      "reason": "Only 44% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_80_2026-09-17_Stacked_9Band.tif",
+      "reason": "Only 69% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Nullarbor_Limestone_Aus_9_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 12% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Patagonia_Steppe_Arg_41_2026-09-15_Stacked_9Band.tif",
+      "reason": "Only 22% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Patagonia_Steppe_Arg_63_2026-09-08_Stacked_9Band.tif",
+      "reason": "Only 20% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Patagonia_Steppe_Arg_73_2026-09-08_Stacked_9Band.tif",
+      "reason": "Only 42% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Patagonia_Steppe_Arg_83_2026-09-08_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Sahara_Rocky_Plateau_15_2026-09-22_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Sahara_Rocky_Plateau_47_2026-09-16_Stacked_9Band.tif",
+      "reason": "Only 66% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Taklamakan_China_26_2026-09-09_Stacked_9Band.tif",
+      "reason": "Only 31% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Taklamakan_China_87_2026-09-07_Stacked_9Band.tif",
+      "reason": "Only 28% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Taklamakan_China_95_2026-09-07_Stacked_9Band.tif",
+      "reason": "Only 72% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Taklamakan_China_97_2026-09-20_Stacked_9Band.tif",
+      "reason": "Only 25% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_10_2026-09-26_Stacked_9Band.tif",
+      "reason": "Only 31% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_19_2026-09-24_Stacked_9Band.tif",
+      "reason": "Only 0% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_25_2026-09-26_Stacked_9Band.tif",
+      "reason": "Only 25% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_30_2026-09-26_Stacked_9Band.tif",
+      "reason": "Only 31% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_33_2026-09-26_Stacked_9Band.tif",
+      "reason": "Only 53% valid pixels in 1.28 km footprint"
+    },
+    {
+      "file": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_56_2026-09-24_Stacked_9Band.tif",
+      "reason": "Only 51% valid pixels in 1.28 km footprint"
+    }
+  ],
+  "groups": 997,
+  "split_counts": {
+    "calibration": {
+      "0": 180,
+      "1": 53
+    },
+    "test": {
+      "0": 189,
+      "1": 75
+    },
+    "train": {
+      "0": 814,
+      "1": 257
+    },
+    "validation": {
+      "0": 272,
+      "1": 64
+    }
+  },
+  "footprint_m": 1280,
+  "input_size": 64,
+  "bands": [
+    "B02",
+    "B03",
+    "B04",
+    "B08",
+    "B11",
+    "B12",
+    "NDVI",
+    "NDWI",
+    "NDMI"
+  ],
+  "spatial_separation_m": 15000,
+  "cloud_mask": "Source SCL/cloud mask was not supplied; residual cloud risk remains",
+  "negative_folder": "D:\\sih data\\Negative_True_Barren",
+  "unknown_negative_folder_excluded": true,
+  "label_limit": "User-designated true-barren terrain; barren status is not independently drill/assay verified",
+  "negative_label_caveat": "User-designated true-barren terrain; barren status is not independently drill/assay verified."
+}

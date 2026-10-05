@@ -1,0 +1,1026 @@
+[
+  {
+    "path": "D:\\CNN Data\\Positive\\India_2026-06-11_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.955045810958648,
+    "longitude": 80.05037707751458,
+    "group": 0,
+    "oof_score": 0.9856933355331421
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 1)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.81664369078948,
+    "longitude": 80.16666395687547,
+    "group": 1,
+    "oof_score": 0.9452109336853027
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 10)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.348642661386858,
+    "longitude": 79.31426534887999,
+    "group": 2,
+    "oof_score": 0.9997697472572327
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 11)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.579430106389708,
+    "longitude": 79.42633176284971,
+    "group": 3,
+    "oof_score": 0.9926788806915283
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 12)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.383326363424356,
+    "longitude": 79.449992943516,
+    "group": 4,
+    "oof_score": 0.9997944235801697
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 13)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.40451483137867,
+    "longitude": 79.5003612076455,
+    "group": 5,
+    "oof_score": 0.9965823292732239
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 14)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.502964848433916,
+    "longitude": 79.68135234763254,
+    "group": 6,
+    "oof_score": 0.9812703132629395
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 15)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.71427156139576,
+    "longitude": 79.74787735320945,
+    "group": 7,
+    "oof_score": 0.9943031072616577
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 16)_2026-06-11_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.68331254655694,
+    "longitude": 79.73335767263993,
+    "group": 7,
+    "oof_score": 0.9817548394203186
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 17)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.546456289996275,
+    "longitude": 79.77558665389681,
+    "group": 8,
+    "oof_score": 0.9519470930099487
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 18)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.45000217455976,
+    "longitude": 79.76664761566956,
+    "group": 9,
+    "oof_score": 0.9996963739395142
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 19)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.880364974372487,
+    "longitude": 79.97958757999766,
+    "group": 10,
+    "oof_score": 0.9754065871238708
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 2)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.999997123357105,
+    "longitude": 80.23331098387527,
+    "group": 11,
+    "oof_score": 0.9957301020622253
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 20)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.869275583494392,
+    "longitude": 79.9614234218983,
+    "group": 10,
+    "oof_score": 0.9813671708106995
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 21)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.540032491865666,
+    "longitude": 79.96045149575123,
+    "group": 12,
+    "oof_score": 0.9097822308540344
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 22)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.81664369078948,
+    "longitude": 80.16666395687547,
+    "group": 1,
+    "oof_score": 0.9452109336853027
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 23)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.999997123357105,
+    "longitude": 80.23331098387527,
+    "group": 11,
+    "oof_score": 0.9957301020622253
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 24)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.833342222810817,
+    "longitude": 80.36666938244775,
+    "group": 13,
+    "oof_score": 0.9468059539794922
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 25)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.94168155085508,
+    "longitude": 80.38333080742929,
+    "group": 14,
+    "oof_score": 0.9292023181915283
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 26)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.923859016260234,
+    "longitude": 80.48071631323849,
+    "group": 14,
+    "oof_score": 0.9837222695350647
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 27)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.93331104803088,
+    "longitude": 80.4166766070308,
+    "group": 14,
+    "oof_score": 0.9644929766654968
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 28)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.953353799847175,
+    "longitude": 80.43877225700702,
+    "group": 14,
+    "oof_score": 0.9930891394615173
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 29)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.973680835445016,
+    "longitude": 80.46581281738703,
+    "group": 14,
+    "oof_score": 0.9838318824768066
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 3)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.716681288009315,
+    "longitude": 79.74998328037366,
+    "group": 7,
+    "oof_score": 0.9924888610839844
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 30)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.96663683072418,
+    "longitude": 80.4666624176345,
+    "group": 14,
+    "oof_score": 0.9741952419281006
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 4)_2026-06-11_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.68331254655694,
+    "longitude": 79.73335767263993,
+    "group": 7,
+    "oof_score": 0.9817548394203186
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 5)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.96663683072418,
+    "longitude": 80.4666624176345,
+    "group": 14,
+    "oof_score": 0.9741952419281006
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 6)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.833342222810817,
+    "longitude": 80.36666938244775,
+    "group": 13,
+    "oof_score": 0.9468059539794922
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 8)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.333345375652907,
+    "longitude": 79.26667219642393,
+    "group": 15,
+    "oof_score": 0.9865211248397827
+  },
+  {
+    "path": "D:\\CNN Data\\Positive\\MP Mine (FID_ 9)_2026-05-12_Stacked_9Band.tif",
+    "label": 1,
+    "latitude": 21.41672677535776,
+    "longitude": 79.30335697318978,
+    "group": 16,
+    "oof_score": 0.9981873631477356
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_100_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.900505777241474,
+    "longitude": 70.89199029320943,
+    "group": 17,
+    "oof_score": 0.008193906396627426
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_10_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.123065019255094,
+    "longitude": 70.67060238848218,
+    "group": 18,
+    "oof_score": 0.008592803031206131
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_11_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.605616237543643,
+    "longitude": 70.01888756556801,
+    "group": 19,
+    "oof_score": 0.019029995426535606
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_12_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.666988507255127,
+    "longitude": 70.79635200257457,
+    "group": 20,
+    "oof_score": 0.003193776123225689
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_13_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.07481633442793,
+    "longitude": 71.83967302300923,
+    "group": 21,
+    "oof_score": 0.007879729382693768
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_14_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.692664201090206,
+    "longitude": 70.69390180618765,
+    "group": 22,
+    "oof_score": 0.004265053663402796
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_15_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.47499280342051,
+    "longitude": 70.90444959612465,
+    "group": 23,
+    "oof_score": 0.004931008443236351
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_16_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.449218091873277,
+    "longitude": 70.90486677856344,
+    "group": 24,
+    "oof_score": 0.002265381161123514
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_17_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.281726331151837,
+    "longitude": 70.35281806967109,
+    "group": 25,
+    "oof_score": 0.00315069779753685
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_18_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.996720625370376,
+    "longitude": 70.83783550239933,
+    "group": 26,
+    "oof_score": 0.0007182050030678511
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_1_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.41447381248832,
+    "longitude": 70.30510903210366,
+    "group": 27,
+    "oof_score": 0.0023860400542616844
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_20_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.16120193470087,
+    "longitude": 71.26454183975085,
+    "group": 28,
+    "oof_score": 0.04442458972334862
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_21_2026-09-21_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.026189829442682,
+    "longitude": 71.32706277839925,
+    "group": 29,
+    "oof_score": 0.09578027576208115
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_22_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.356063642280198,
+    "longitude": 71.92213138793247,
+    "group": 30,
+    "oof_score": 0.001581156044267118
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_23_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.297340861858384,
+    "longitude": 70.82927266228027,
+    "group": 31,
+    "oof_score": 0.00733440276235342
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_24_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.17089246701973,
+    "longitude": 72.00391511126651,
+    "group": 32,
+    "oof_score": 0.008284084498882294
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_25_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.018382240164193,
+    "longitude": 71.19103573293059,
+    "group": 33,
+    "oof_score": 0.0009872391819953918
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_26_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.134167102298576,
+    "longitude": 71.49991838890824,
+    "group": 34,
+    "oof_score": 0.1538144052028656
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_27_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.419845652079985,
+    "longitude": 71.79612668608999,
+    "group": 35,
+    "oof_score": 0.011244661174714565
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_28_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.41028128283718,
+    "longitude": 70.38138336043035,
+    "group": 36,
+    "oof_score": 0.0019030191469937563
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_29_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.073102269403954,
+    "longitude": 70.94416518028693,
+    "group": 37,
+    "oof_score": 0.002096776617690921
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_2_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.152587502614608,
+    "longitude": 71.2134224471743,
+    "group": 38,
+    "oof_score": 0.006104379892349243
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_30_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.1161984389789,
+    "longitude": 70.13129158435767,
+    "group": 39,
+    "oof_score": 0.0021045010071247816
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_31_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.551044929516497,
+    "longitude": 70.90657031628226,
+    "group": 40,
+    "oof_score": 0.009202455170452595
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_32_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.048763562563064,
+    "longitude": 70.88152421873991,
+    "group": 41,
+    "oof_score": 0.002096470445394516
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_33_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.801705084607573,
+    "longitude": 71.10730138272127,
+    "group": 42,
+    "oof_score": 0.005067548714578152
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_34_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.31046594533573,
+    "longitude": 70.36386987093641,
+    "group": 25,
+    "oof_score": 0.013532988727092743
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_35_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.72355583406675,
+    "longitude": 71.89225094948813,
+    "group": 43,
+    "oof_score": 0.041856974363327026
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_36_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.74657721404594,
+    "longitude": 70.54147346297931,
+    "group": 44,
+    "oof_score": 0.0012139867758378386
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_37_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.287975029659776,
+    "longitude": 70.81745349359949,
+    "group": 45,
+    "oof_score": 0.02534128539264202
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_38_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.050799969734403,
+    "longitude": 70.31232511420053,
+    "group": 46,
+    "oof_score": 0.01774032972753048
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_39_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.43195006533941,
+    "longitude": 71.31788071228048,
+    "group": 47,
+    "oof_score": 0.0030977081041783094
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_3_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.848263549820427,
+    "longitude": 71.47286807732164,
+    "group": 48,
+    "oof_score": 0.0009879147401079535
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_40_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.054193266800073,
+    "longitude": 70.44394762081319,
+    "group": 49,
+    "oof_score": 0.015236763283610344
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_41_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.46213910138513,
+    "longitude": 71.34378765381037,
+    "group": 50,
+    "oof_score": 0.0040098074823617935
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_43_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.599832669013313,
+    "longitude": 70.35709628970453,
+    "group": 51,
+    "oof_score": 0.005006964784115553
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_44_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.30548678263842,
+    "longitude": 70.47637136232227,
+    "group": 52,
+    "oof_score": 0.0037043218035250902
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_45_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.198885289362483,
+    "longitude": 70.48635691057937,
+    "group": 53,
+    "oof_score": 0.0033181861508637667
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_46_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.44455978885476,
+    "longitude": 71.71140944966362,
+    "group": 54,
+    "oof_score": 0.013681374490261078
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_47_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.660436936366782,
+    "longitude": 70.79433438436669,
+    "group": 55,
+    "oof_score": 0.006641984451562166
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_48_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.336140620972035,
+    "longitude": 70.40996704859653,
+    "group": 56,
+    "oof_score": 0.00505969300866127
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_49_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.586293113670678,
+    "longitude": 71.79263502829797,
+    "group": 57,
+    "oof_score": 0.17722903192043304
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_4_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.868749059533872,
+    "longitude": 71.8511308849215,
+    "group": 58,
+    "oof_score": 0.003529762616381049
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_50_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.026012651983194,
+    "longitude": 70.17099821039656,
+    "group": 59,
+    "oof_score": 0.0691663846373558
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_51_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.415784243569338,
+    "longitude": 70.0530336169383,
+    "group": 60,
+    "oof_score": 0.027577335014939308
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_52_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.36286787601587,
+    "longitude": 71.16610685661321,
+    "group": 61,
+    "oof_score": 0.0010612382320687175
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_53_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.842857531099202,
+    "longitude": 71.78532852392713,
+    "group": 62,
+    "oof_score": 0.012823876924812794
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_54_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.6348846936837,
+    "longitude": 70.68365971217271,
+    "group": 63,
+    "oof_score": 0.0013497421750798821
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_55_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.518829259844935,
+    "longitude": 70.75937296782169,
+    "group": 64,
+    "oof_score": 0.0020933521445840597
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_56_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.180549423437235,
+    "longitude": 70.53614043256408,
+    "group": 65,
+    "oof_score": 0.006343028973788023
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_57_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.248289681333013,
+    "longitude": 70.81882765763444,
+    "group": 45,
+    "oof_score": 0.054570116102695465
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_58_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.09943185592636,
+    "longitude": 70.87218505302451,
+    "group": 66,
+    "oof_score": 0.0016874171560630202
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_59_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.588944682729014,
+    "longitude": 71.8969167945556,
+    "group": 67,
+    "oof_score": 0.3321899473667145
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_5_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.901676461086186,
+    "longitude": 70.22651392336675,
+    "group": 68,
+    "oof_score": 0.0039505804888904095
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_60_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.52722225692628,
+    "longitude": 70.28021372876034,
+    "group": 69,
+    "oof_score": 0.0006529848324134946
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_61_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.736902001942067,
+    "longitude": 70.97486218709611,
+    "group": 70,
+    "oof_score": 0.0039872038178145885
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_62_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.789091857884337,
+    "longitude": 71.59975027523298,
+    "group": 71,
+    "oof_score": 0.007222755812108517
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_63_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.85045910921879,
+    "longitude": 70.04494871002271,
+    "group": 72,
+    "oof_score": 0.004301564767956734
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_64_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.53734483548718,
+    "longitude": 71.0832817109538,
+    "group": 73,
+    "oof_score": 0.0025902956258505583
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_65_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.26697387422465,
+    "longitude": 70.51576132170139,
+    "group": 74,
+    "oof_score": 0.005977280903607607
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_66_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.278697351194936,
+    "longitude": 71.66987183061084,
+    "group": 75,
+    "oof_score": 0.015413866378366947
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_67_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.968793168872207,
+    "longitude": 71.05138758710922,
+    "group": 76,
+    "oof_score": 0.020987210795283318
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_68_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.343388748614306,
+    "longitude": 70.54460815033099,
+    "group": 77,
+    "oof_score": 0.006989787798374891
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_69_2026-09-21_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.036818715663152,
+    "longitude": 71.82862439921655,
+    "group": 78,
+    "oof_score": 0.08794356882572174
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_6_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.969661944473984,
+    "longitude": 71.67779141233257,
+    "group": 79,
+    "oof_score": 0.0016101949149742723
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_70_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.23548844521697,
+    "longitude": 71.15303138031602,
+    "group": 80,
+    "oof_score": 0.006112158298492432
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_71_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.548253554251144,
+    "longitude": 71.09948510361994,
+    "group": 73,
+    "oof_score": 0.004082546569406986
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_72_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.302826081852707,
+    "longitude": 71.65947530788523,
+    "group": 81,
+    "oof_score": 0.001832216395996511
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_73_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.41284924038863,
+    "longitude": 70.02202493008001,
+    "group": 60,
+    "oof_score": 0.0040769996121525764
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_74_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.273778742987222,
+    "longitude": 71.80007095482863,
+    "group": 82,
+    "oof_score": 0.012331047095358372
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_75_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.747798150418443,
+    "longitude": 71.1948629453653,
+    "group": 83,
+    "oof_score": 0.03735216706991196
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_76_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.201006883582217,
+    "longitude": 71.33008847825877,
+    "group": 84,
+    "oof_score": 0.0025780468713492155
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_77_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.3507192567732,
+    "longitude": 71.82886224027848,
+    "group": 85,
+    "oof_score": 0.011982356198132038
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_78_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.83755724029316,
+    "longitude": 70.76628515067488,
+    "group": 86,
+    "oof_score": 0.0051435623317956924
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_79_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.037873408554184,
+    "longitude": 70.09280106108312,
+    "group": 87,
+    "oof_score": 0.0090536680072546
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_7_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.249320400718513,
+    "longitude": 71.84170944056451,
+    "group": 82,
+    "oof_score": 0.05339052900671959
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_80_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.33257427338741,
+    "longitude": 71.47607605733216,
+    "group": 88,
+    "oof_score": 0.055621497333049774
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_81_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.165589888548066,
+    "longitude": 71.20630577156093,
+    "group": 89,
+    "oof_score": 0.7084249258041382
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_82_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.490698501125824,
+    "longitude": 70.77860596150754,
+    "group": 64,
+    "oof_score": 0.001211938913911581
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_83_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.577365004188664,
+    "longitude": 70.71137654096074,
+    "group": 90,
+    "oof_score": 0.0019603560212999582
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_84_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.438093843707428,
+    "longitude": 70.59426992697696,
+    "group": 91,
+    "oof_score": 0.12589825689792633
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_85_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.13282129577999,
+    "longitude": 70.9520806550093,
+    "group": 92,
+    "oof_score": 0.0024404169525951147
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_86_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.327363993602145,
+    "longitude": 71.87366076253795,
+    "group": 93,
+    "oof_score": 0.02633359283208847
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_87_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.465151890481884,
+    "longitude": 70.42987063219863,
+    "group": 94,
+    "oof_score": 0.002626476576551795
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_88_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.062392396729155,
+    "longitude": 70.52456150448363,
+    "group": 95,
+    "oof_score": 0.012156276032328606
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_89_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.1902169480051,
+    "longitude": 70.09796683482152,
+    "group": 96,
+    "oof_score": 0.0034750306513160467
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_8_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.739735120066204,
+    "longitude": 71.04079065035673,
+    "group": 97,
+    "oof_score": 0.024867508560419083
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_90_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.992755605408,
+    "longitude": 71.1937120937219,
+    "group": 33,
+    "oof_score": 0.006106009241193533
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_91_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.668464042368523,
+    "longitude": 71.5417959361638,
+    "group": 98,
+    "oof_score": 0.9881117343902588
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_92_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.21316141281959,
+    "longitude": 70.15024466021012,
+    "group": 99,
+    "oof_score": 0.001758689759299159
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_93_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.456363936853364,
+    "longitude": 70.99098284669176,
+    "group": 100,
+    "oof_score": 0.017067454755306244
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_94_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.376818444518776,
+    "longitude": 70.86965555814712,
+    "group": 101,
+    "oof_score": 0.06942711025476456
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_95_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.49277953125378,
+    "longitude": 71.63825049110359,
+    "group": 102,
+    "oof_score": 0.2843441963195801
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_96_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.59884774961762,
+    "longitude": 71.38939609498979,
+    "group": 103,
+    "oof_score": 0.0019213467603549361
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_97_2026-09-06_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.54428482550365,
+    "longitude": 71.1804431525498,
+    "group": 104,
+    "oof_score": 0.0058684274554252625
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_98_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 26.721989125207372,
+    "longitude": 70.1831624831523,
+    "group": 105,
+    "oof_score": 0.005929222796112299
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_99_2026-09-24_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.834633225167693,
+    "longitude": 70.27359921575787,
+    "group": 106,
+    "oof_score": 0.00204066326841712
+  },
+  {
+    "path": "D:\\sih data\\Negative_True_Barren\\Thar_Desert_Barren_9_2026-09-26_Stacked_9Band.tif",
+    "label": 0,
+    "latitude": 27.182535951179474,
+    "longitude": 70.79797854148147,
+    "group": 107,
+    "oof_score": 0.029676303267478943
+  }
+]

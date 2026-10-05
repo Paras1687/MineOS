@@ -1,0 +1,1 @@
+raise SystemExit("Legacy trainer retired: its pretrained checkpoint did not exclude validation sites. Run scripts/prepare_national_fusion.py, then scripts/train_national_fusion.py for leakage-controlled regional evaluation.")

@@ -1,0 +1,13 @@
+{
+  "latitude": 13.392964508711628,
+  "longitude": 76.79510985637629,
+  "scene_id": "S2C_MSIL2A_20251211T052231_R062_T43PFQ_20251211T084011",
+  "acquisition_date": "2025-12-11T05:22:31.025000Z",
+  "source": "Copernicus Sentinel-2 L2A / Microsoft Planetary Computer",
+  "date_range": "2025-01-01/2025-12-31",
+  "preprocessing": "s2-aligned-20m-1280m-v2",
+  "resolution_m": 20,
+  "footprint_m": 1280,
+  "valid_fraction": 0.983642578125,
+  "sha256": "d9abc0b98cb22ffc48e15b6e3059194e7e61104470eb15eb6186d4f7965d1d74"
+}

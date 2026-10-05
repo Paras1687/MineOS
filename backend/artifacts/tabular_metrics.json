@@ -1,0 +1,80 @@
+{
+  "health": {
+    "test_rows": 2000,
+    "pr_auc": 0.7770680426354745,
+    "roc_auc": 0.968799476312264,
+    "precision_at_0_5": 0.4793388429752066,
+    "recall_at_0_5": 0.8529411764705882,
+    "precision_at_0_15": 0.2529182879377432,
+    "recall_at_0_15": 0.9558823529411765,
+    "selected_params": {
+      "n_estimators": 240,
+      "max_depth": 12,
+      "min_samples_leaf": 8,
+      "class_weight": "balanced_subsample"
+    },
+    "selection": "PR-AUC on stratified training-only validation split",
+    "features": [
+      "Air temperature [K]",
+      "Process temperature [K]",
+      "Rotational speed [rpm]",
+      "Torque [Nm]",
+      "Tool wear [min]"
+    ],
+    "limitations": "AI4I synthetic machine benchmark; no failure lead time/RUL and no verified mapping to MOIL machinery."
+  },
+  "production": {
+    "test_rows": 1323,
+    "validation_rows": 603,
+    "calibration_rows": 603,
+    "train_end": "2025-05-31",
+    "test_start": "2025-08-07",
+    "mae_mt": 28.50303927859121,
+    "rmse_mt": 36.06179411559449,
+    "rolling7_mae_mt": 43.97922470575532,
+    "validation_mae_mt": 28.447288956017438,
+    "interval_radius_mt": 58.20113525390627,
+    "empirical_coverage": 0.891156462585034,
+    "selected_params": {
+      "n_estimators": 220,
+      "max_depth": 3,
+      "learning_rate": 0.045,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "reg_lambda": 5
+    },
+    "monotone_constraints": {},
+    "selection": "Lowest MAE on the 2025-06-01 to 2025-08-06 time validation window",
+    "features": [
+      "lag1",
+      "rolling7",
+      "Planned_Target_MT",
+      "Planned_Working_Hours",
+      "Mn_Grade_pct",
+      "Rainfall_mm",
+      "Temperature_C",
+      "Humidity_pct",
+      "Predicted_Overall_Equipment_Availability_pct",
+      "Predicted_Average_Equipment_Failure_Risk_pct"
+    ],
+    "limitations": "Time-ordered evaluation, source mine IDs absent; historical weather is not a forecast; transfer across mines is unvalidated."
+  },
+  "grade": {
+    "training_rows": 344,
+    "evaluation_rows": 124,
+    "mae_pct": 3.6535906031432734,
+    "screening_error_pct": 15.117633666064506,
+    "status": "Experimental analogue grade only; source ranges unverified; no field-calibrated confidence interval",
+    "features": [
+      "Geology",
+      "Lithology",
+      "Host_Rock",
+      "Formation",
+      "Age"
+    ]
+  },
+  "resource": {
+    "status": "Blocked: unit and provenance verification required",
+    "reason": "Source tons and unitless numbers cannot be treated as measured metric reserves. Borehole rows mostly generic surface/region descriptions. No defensible site-volume or recoverable reserve labels supplied."
+  }
+}

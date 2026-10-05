@@ -1,0 +1,156 @@
+{
+  "model": "Gaussian Naive Bayes on nine-band pixel-distribution summaries",
+  "features_per_patch": 64,
+  "split_source": "same spatially grouped train/validation/calibration/test manifest",
+  "selection_metric": "validation ROC-AUC; test scored after selection",
+  "validation_candidates": [
+    {
+      "var_smoothing": 1e-11,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5301472070982053,
+        "pr_auc": 0.30859110402697987,
+        "brier": 0.3655504882335663
+      }
+    },
+    {
+      "var_smoothing": 1e-10,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5301472070982053,
+        "pr_auc": 0.30859110402697987,
+        "brier": 0.3655504882335663
+      }
+    },
+    {
+      "var_smoothing": 1e-09,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5301472070982053,
+        "pr_auc": 0.30859110402697987,
+        "brier": 0.3655504882335663
+      }
+    },
+    {
+      "var_smoothing": 1e-08,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5301472070982053,
+        "pr_auc": 0.30859110402697987,
+        "brier": 0.3655511438846588
+      }
+    },
+    {
+      "var_smoothing": 1e-07,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5301472070982053,
+        "pr_auc": 0.30859110402697987,
+        "brier": 0.3655500113964081
+      }
+    },
+    {
+      "var_smoothing": 1e-06,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5300463803186126,
+        "pr_auc": 0.30844872026390646,
+        "brier": 0.3655485212802887
+      }
+    },
+    {
+      "var_smoothing": 1e-05,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5298447267594274,
+        "pr_auc": 0.30651932781727265,
+        "brier": 0.3655238151550293
+      }
+    },
+    {
+      "var_smoothing": 0.0001,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5296430732002421,
+        "pr_auc": 0.30582707849850965,
+        "brier": 0.3652878403663635
+      }
+    },
+    {
+      "var_smoothing": 0.001,
+      "validation": {
+        "n": 229,
+        "positive": 58,
+        "prevalence": 0.25327510917030566,
+        "roc_auc": 0.5281306715063522,
+        "pr_auc": 0.3044103962767767,
+        "brier": 0.3637840449810028
+      }
+    }
+  ],
+  "selected": {
+    "var_smoothing": 1e-11,
+    "validation": {
+      "n": 229,
+      "positive": 58,
+      "prevalence": 0.25327510917030566,
+      "roc_auc": 0.5301472070982053,
+      "pr_auc": 0.30859110402697987,
+      "brier": 0.3655504882335663
+    }
+  },
+  "test": {
+    "n": 306,
+    "positive": 76,
+    "prevalence": 0.24836601307189543,
+    "roc_auc": 0.5189359267734555,
+    "pr_auc": 0.2550589055573052,
+    "brier": 0.3902973532676697
+  },
+  "cnn_same_test": {
+    "roc_auc": 0.5321510297482838,
+    "pr_auc": 0.2811960967158177,
+    "n": 306
+  },
+  "xgboost_same_test": {
+    "roc_auc": 0.6070366132723112,
+    "pr_auc": 0.35418584066017444,
+    "n": 306
+  },
+  "random_forest_same_test": {
+    "roc_auc": 0.5741990846681923,
+    "pr_auc": 0.33904643103063714,
+    "n": 306
+  },
+  "auc_difference_vs_cnn": -0.013215102974828308,
+  "paired_spatial_group_bootstrap_vs_cnn": {
+    "test_spatial_groups": 37,
+    "valid_replicates": 2000,
+    "delta_vs_cnn_95pct": [
+      -0.07667206424433912,
+      0.06351590572131426
+    ]
+  },
+  "india_test_subset": {
+    "n": 0,
+    "positive": 0,
+    "spatial_groups": 0
+  },
+  "deployment": "Benchmark only; India test subset has no patches and background labels are not verified barren ground."
+}

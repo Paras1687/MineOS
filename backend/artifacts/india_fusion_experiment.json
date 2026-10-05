@@ -1,0 +1,80 @@
+{
+  "version": "moil-india-fusion-adaptation-v1",
+  "data": {
+    "positive_dir": "D:/CNN Data/Positive",
+    "barren_dir": "D:/sih data/Negative_True_Barren",
+    "positives": 30,
+    "true_barren": 98,
+    "unknown_backgrounds_excluded": true,
+    "spatial_group_radius_km": 5
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "train": 102,
+      "test": 26,
+      "test_positive": 7,
+      "test_groups": 19
+    },
+    {
+      "fold": 2,
+      "train": 102,
+      "test": 26,
+      "test_positive": 6,
+      "test_groups": 22
+    },
+    {
+      "fold": 3,
+      "train": 102,
+      "test": 26,
+      "test_positive": 6,
+      "test_groups": 23
+    },
+    {
+      "fold": 4,
+      "train": 103,
+      "test": 25,
+      "test_positive": 5,
+      "test_groups": 22
+    },
+    {
+      "fold": 5,
+      "train": 103,
+      "test": 25,
+      "test_positive": 6,
+      "test_groups": 22
+    }
+  ],
+  "metrics": {
+    "base_model": {
+      "n": 128,
+      "positives": 30,
+      "negatives": 98,
+      "groups": 108,
+      "roc_auc": 0.29115646258503397,
+      "pr_auc": 0.21300178307077555,
+      "balanced_accuracy_at_0_5": 0.5,
+      "positive_median": 2.4832606742378784e-05,
+      "negative_median": 0.00017392637658231985
+    },
+    "india_adaptation_oof": {
+      "n": 128,
+      "positives": 30,
+      "negatives": 98,
+      "groups": 108,
+      "roc_auc": 0.9935374149659864,
+      "pr_auc": 0.9694621923244481,
+      "balanced_accuracy_at_0_5": 0.9897959183673469,
+      "positive_median": 0.9827385544776917,
+      "negative_median": 0.006040830397978425
+    }
+  },
+  "epochs": 14,
+  "augmentation": [
+    "horizontal_flip",
+    "vertical_flip",
+    "90_degree_rotation"
+  ],
+  "limitation": "India positive labels are concentrated in one mine belt; true-barren labels represent selected terrain, not all non-deposit India. Metrics are spatial-grouped within this supplied sample, not independent nationwide validation.",
+  "candidate_samples": 128
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "latitude": 34.6664756674,
+    "longitude": 77.2883331373,
+    "region": "LADAKH",
+    "anchor": "224",
+    "label": 1,
+    "label_status": "supplied_occurrence_unverified",
+    "source_rows": [
+      224
+    ],
+    "id": "occurrence_224",
+    "error": "No aligned clear imagery: SystemError: <cyfunction DatasetBase.stop at 0x0000018D5BE331E0> returned a result with an exception set; ValueError: Clear pixel fraction 0.40"
+  },
+  {
+    "latitude": 34.74275033236631,
+    "longitude": 77.38119924682371,
+    "region": "LADAKH",
+    "anchor": "224",
+    "label": 0,
+    "label_status": "sampled_unknown_background_not_absence",
+    "id": "background_224",
+    "error": "No aligned clear imagery: ValueError: Clear pixel fraction 0.63; ValueError: Clear pixel fraction 0.63"
+  }
+]

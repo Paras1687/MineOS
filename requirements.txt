@@ -1,0 +1,16 @@
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5
+httpx==0.28.1
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+xgboost==3.4.1
+torch==2.14.0
+rasterio==1.5.1
+pillow==12.3.0
+fsspec==2026.9.0
+aiohttp==3.14.3
+planetary-computer==1.0.0
