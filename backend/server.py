@@ -3,6 +3,7 @@ import json,uuid,threading
 from contextlib import asynccontextmanager
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
+from time import monotonic
 from typing import Literal
 import torch
 from fastapi import FastAPI,HTTPException,Query
@@ -115,28 +116,36 @@ def run_job(uid,point,nearby=False):
         with job_lock:jobs[uid].update(status='complete',result=result)
     except Exception as exc:
         with job_lock:jobs[uid].update(status='failed',error=str(exc).split('?')[0][:600])
+def submit_job(point, nearby=False):
+    key=(point.longitude,point.latitude,nearby)
+    with job_lock:
+        for uid,existing in jobs.items():
+            if existing.get('key')==key and (existing['status'] in ['queued','running'] or
+                    (existing['status']=='complete' and monotonic()-existing.get('created',0)<600)):
+                return dict(job_id=uid)
+        if sum(j['status'] in ['queued','running'] for j in jobs.values())>=4:
+            raise HTTPException(429,'Four predictions already in progress; wait for an active request to finish')
+        for uid in list(jobs):
+            if jobs[uid]['status'] in ['complete','failed'] and (len(jobs)>=100 or monotonic()-jobs[uid].get('created',0)>600):
+                jobs.pop(uid)
+        uid=uuid.uuid4().hex
+        jobs[uid]={'id':uid,'status':'queued','key':key,'created':monotonic()}
+    pool.submit(run_job,uid,point,nearby)
+    return dict(job_id=uid)
+
 @app.post('/api/v1/exploration/predict',status_code=202)
 def point_prediction(point:Point):
-    with job_lock:
-        if sum(j['status'] in ['queued','running'] for j in jobs.values())>=4:raise HTTPException(429,'Four predictions already in progress')
-        for key in list(jobs):
-            if len(jobs)>100 and jobs[key]['status'] in ['complete','failed']:jobs.pop(key)
-        uid=uuid.uuid4().hex;jobs[uid]={'id':uid,'status':'queued'}
-    pool.submit(run_job,uid,point);return dict(job_id=uid)
+    return submit_job(point)
+
 @app.post('/api/v1/exploration/nearby',status_code=202)
 def nearby_prediction(point:Point):
-    with job_lock:
-        if sum(j['status'] in ['queued','running'] for j in jobs.values())>=4:raise HTTPException(429,'Four predictions already in progress')
-        for key in list(jobs):
-            if len(jobs)>100 and jobs[key]['status'] in ['complete','failed']:jobs.pop(key)
-        uid=uuid.uuid4().hex;jobs[uid]={'id':uid,'status':'queued'}
-    pool.submit(run_job,uid,point,True);return dict(job_id=uid)
+    return submit_job(point,True)
 
 @app.get('/api/v1/jobs/{uid}')
 def job(uid:str):
     with job_lock:
         if uid not in jobs:raise HTTPException(404,'Prediction job not found')
-        return jobs[uid].copy()
+        return {k:v for k,v in jobs[uid].items() if k not in ('key','created')}
 @app.get('/api/v1/mines/{uid}/geology')
 def geology(uid:str):
     mine=get_mine(uid);return dict(data=mine,grade_estimate=grade_for(mine),resource_prediction=None,resource_reason='No verified tonnage units or ore volume labels')

@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: mineos
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python scripts/prepare_deployment.py
+    startCommand: uvicorn backend.server:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      - key: GDAL_CACHEMAX
+        value: "16"
+      - key: GDAL_NUM_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"

@@ -16,6 +16,7 @@ from rasterio.warp import reproject, Resampling, transform, transform_bounds
 from rasterio.windows import from_bounds
 
 from backend.config import ARTIFACTS
+from backend.cloud import search_catalog
 from backend.models.geo_intelligence.fusion_inputs import BANDS, VERSION
 
 DATE_RANGE = '2025-01-01/2025-12-31'
@@ -38,13 +39,7 @@ def fetch_patch(lon, lat, size=64):
     body = dict(collections=['sentinel-2-l2a'], intersects=dict(type='Point', coordinates=[lon, lat]),
                 datetime=DATE_RANGE, query={'eo:cloud_cover': {'lt': 50}}, limit=16,
                 sortby=[{'field': 'eo:cloud_cover', 'direction': 'asc'}])
-    for attempt in range(4):
-        response = httpx.post('https://planetarycomputer.microsoft.com/api/stac/v1/search', json=body, timeout=30)
-        if response.status_code not in (429, 502, 503, 504):
-            break
-        time.sleep(min(10, 2**attempt))
-    response.raise_for_status()
-    scenes = response.json().get('features', [])
+    scenes = search_catalog(body)
     crs = f'EPSG:{(32600 if lat >= 0 else 32700)+min(60, int((lon+180)//6)+1)}'
     x, y = transform('EPSG:4326', crs, [lon], [lat])
     target = from_origin(x[0]-size*10, y[0]+size*10, 20, 20)

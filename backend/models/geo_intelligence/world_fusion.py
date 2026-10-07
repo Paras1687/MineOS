@@ -8,6 +8,14 @@ from torch import nn
 from backend.config import ARTIFACTS
 
 
+def file_sha256(path):
+    digest = hashlib.sha256()
+    with path.open('rb') as stream:
+        for block in iter(lambda: stream.read(1024*1024), b''):
+            digest.update(block)
+    return digest.hexdigest()
+
+
 class WorldFusionCNN(nn.Module):
     def __init__(self, gravity_mean=0.0, gravity_variance=1.0, gravity_dropout_after_norm=False):
         super().__init__()
@@ -78,7 +86,10 @@ def gravity_grid():
     from scipy.interpolate import RegularGridInterpolator
     path = ARTIFACTS / 'world_bouguer.grd'
     expected=json.loads((ARTIFACTS/'world_fusion_metadata.json').read_text(encoding='utf-8')).get('gravity_sha256')
-    if expected and hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
+    with path.open('rb') as stream:
+        if stream.read(80).startswith(b'version https://git-lfs.github.com/spec/v1'):
+            raise RuntimeError('Gravity grid is a Git LFS pointer. Run python scripts/prepare_deployment.py during build.')
+    if expected and file_sha256(path)!=expected:
         raise RuntimeError('World gravity grid checksum mismatch')
     # Keep the file open to allow mmap, avoiding a 222MB+ copy into RAM
     f = netcdf_file(path, 'r', mmap=True)
@@ -90,6 +101,7 @@ def gravity_grid():
         
     class DirectInterpolator:
         def __init__(self, lats, lons, z):
+            self.file = f
             self.lats, self.lons, self.z = lats, lons, z
             self.lat_step = (lats[-1] - lats[0]) / (len(lats) - 1)
             self.lon_step = (lons[-1] - lons[0]) / (len(lons) - 1)

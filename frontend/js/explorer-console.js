@@ -4,6 +4,7 @@ const byId=id=>document.getElementById(id),map=L.map('map-container').setView([2
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'dark-basemap',attribution:'© OpenStreetMap contributors'}).addTo(map);
 let selected=null,marker=null,scanCircle=null,selectionVersion=0;
 let plotResizeObserver=null;
+const pendingRequests=new Set();
 function selectPoint(latitude,longitude,zoom){
  selected={latitude,longitude};selectionVersion++;
  if(marker)map.removeLayer(marker);
@@ -63,14 +64,22 @@ function setPointResult(result,version){
 }
 async function submitExploration(path,detail,nearby){
  const version=detail.selectionVersion;
+ const requestKey=path+':'+version;
+ if(pendingRequests.has(requestKey))return;
+ pendingRequests.add(requestKey);
+ if(nearby)byId('scan-nearby').disabled=true;
  if(!nearby)byId('val-status').textContent='Fetching satellite imagery and scoring…';
  try{
-  const response=await fetch('/api/v1/exploration/'+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({latitude:detail.latitude,longitude:detail.longitude,cloud:true})});
+  const response=await fetch('/api/v1/exploration/'+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({latitude:detail.latitude,longitude:detail.longitude,cloud:true}),signal:AbortSignal.timeout(60000)});
   if(!response.ok)throw Error((await response.json()).detail||'Could not start model job');
   const {job_id}=await response.json();
-  for(let i=0;i<300;i++){
-   await new Promise(resolve=>setTimeout(resolve,700));
-   const poll=await fetch('/api/v1/jobs/'+job_id),job=await poll.json();
+  for(let i=0;i<360;i++){
+   if(version!==selectionVersion)return;
+   await new Promise(resolve=>setTimeout(resolve,1500));
+   const poll=await fetch('/api/v1/jobs/'+job_id,{signal:AbortSignal.timeout(30000)});
+   if(poll.status===502||poll.status===503||poll.status===504)continue;
+   if(poll.status===404)throw Error('Server restarted and this request expired. Select the point again to retry.');
+   const job=await poll.json();
    if(!poll.ok)throw Error(job.detail||'Model job status could not be read');
    if(job.status==='complete'){
     if(nearby){if(version===selectionVersion&&selected){setNearbyResults(job.result.features||[],version);byId('scan-status').textContent=job.result.message||byId('scan-status').textContent}}
@@ -83,7 +92,10 @@ async function submitExploration(path,detail,nearby){
  }catch(error){
   if(version!==selectionVersion)return;
   if(nearby)byId('scan-status').textContent=error.message;
-  else byId('val-status').textContent=error.message;
+  else {byId('val-status').textContent=error.message;byId('plot-status').textContent='Prediction unavailable. Select the point again to retry.';}
+ }finally{
+  pendingRequests.delete(requestKey);
+  if(nearby&&version===selectionVersion)byId('scan-nearby').disabled=false;
  }
 }
 window.addEventListener('mineos:point-selected',event=>submitExploration('predict',event.detail,false));
